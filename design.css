@@ -1,4 +1,4 @@
-@charset "Shift_JIS";
+@charset "UTF-8";
 
 *	{
  margin  : 0 ;
@@ -178,7 +178,7 @@ blockquote	{
 }
 blockquote[title]:before	{
  display       : block ;
- content       : ""attr(title)"‚æ‚èˆø—p" ;
+ content       : ""attr(title)"ã‚ˆã‚Šå¼•ç”¨" ;
  color         : #393 ;
  padding       : 0.3em 1% ;
  background    : #cfb ;
@@ -187,7 +187,7 @@ blockquote[title]:before	{
 }
 blockquote[cite]:after	{
  display       : block ;
- content       : "sQÆt"attr(cite)"" ;
+ content       : "ã€Šå‚ç…§ã€‹"attr(cite)"" ;
  color         : #393 ;
  text-align    : right ;
  padding       : 0.3em 1% ;
@@ -201,7 +201,7 @@ blockquote p	{
 
 
 q	{
- quotes      : "u" "v" "w" "x" ;
+ quotes      : "ã€Œ" "ã€" "ã€" "ã€" ;
  color       : #393 ;
 }
 q:before	{
@@ -239,8 +239,8 @@ hr		{
 }
 hr:before	{
  display       : block ;
-/* content       : "Ÿ@@@@@@@Ÿ@@@@@@@Ÿ" ;*/
- content       : "–" ;
+/* content       : "â—†ã€€ã€€ã€€ã€€ã€€ã€€ã€€â—†ã€€ã€€ã€€ã€€ã€€ã€€ã€€â—†" ;*/
+ content       : "ï¼Š" ;
  text-align    : center ;
 }
 
