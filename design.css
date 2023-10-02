@@ -1,0 +1,258 @@
+@charset "Shift_JIS";
+
+*	{
+ margin  : 0 ;
+ padding : 0 ;
+ border  : none ;
+ color   : #333 ;
+ text-decoration: none ;
+ text-align     : left ;
+ font-size      : 100% ;
+ font-style     : normal ;
+ font-weight    : normal ;
+}
+*[title]	{
+ cursor	: help ;
+}
+
+
+
+
+body	{
+ margin     : 0.5em 5% ;
+ background : #ddb ;
+}
+
+
+
+
+
+h1	{
+ margin     : 2em 0 ;
+ color      : #333 ;
+ text-align : center ;
+ font-size  : 200% ;
+}
+h2	{
+ margin        : 3em 0 0 0 ;
+ padding       : 0.1em 2% ;
+/*
+ background    : #dd9 ;
+ border        : solid 1px #cc6 ;
+ border-style  : solid none ;
+*/
+ border-bottom : solid 6px #633 ;
+
+ color         : #333 ;
+ font-size     : 150% ;
+}
+h3	{
+ margin        : 1em 0 0 0 ;
+ padding       : 0.1em 1% ;
+ border-left   : solid 13px #633 ;
+ color         : #333 ;
+ font-size     : 150% ;
+}
+h4	{
+ margin        : 1em 0 ;
+ padding       : 0.1em 0 0.1em 1% ;
+ border-left   : double 13px #633 ;
+}
+h5	{
+ margin        : 1em 10px ;
+ padding       : 0.1em 0 0.1em 1% ;
+ border-left   : solid 4px #633 ;
+}
+h6	{
+ margin        : 1em 10px ;
+ padding       : 0.1em 0 0.1em 1% ;
+ border-left   : dotted 4px #633 ;
+}
+h4, h5, h6 {
+ color         : #333 ;
+ font-size     : 110% ;
+ font-weight   : bold ;
+}
+
+p	{ 
+ margin          : 1.5em 0% 1.5em 0% ;
+ text-indent     : 1em ;
+ line-height     : 170% ;
+}
+
+a:link		{
+ color           : #33f ;
+ text-decoration : underline ;
+}
+a:visited	{
+ color           : #c0c ;
+ text-decoration : underline ;
+}
+a:hover		{
+ color           : #f66 ;
+ text-decoration : underline ;
+}
+
+
+
+
+
+
+
+
+
+ul,ol	{ 
+ margin        : 1.5em 1% 1.5em 5% ; }
+li	{
+ line-height   : 130% ;
+ margin        : 0 0 0.3em 0 ;
+}
+li ul,li ol	{
+ margin        : 0.3em 0 0.3em 3%;
+}
+
+ol.navi		{ 
+ margin        : 0.1em 0 0 0 ;
+ padding       : 0.1em 2% ;
+}
+ol.navi li	{
+ display     : inline ;
+ margin      : 0 ;
+ font-size   : 90% ;
+}
+ol.navi li:before	{
+ content     : " > " ;
+}
+ol.navi li:first-child:before	{
+ content     : "" ;
+}
+
+
+
+
+dl	{
+ margin        : 1.5em 0 1.5em 0% ;
+ border        : solid 1px #996 ;
+ border-style  : none solid solid solid;
+ background    : #eec ;
+}
+dt/*dd9*/	{
+ padding       : 0.2em 1% ;
+ background    : #dd9 ;
+ border        : solid 1px #996 ;
+ border-style  : solid none ;
+
+}
+dd	{
+ margin        : 0.7em 1% 0.7em 4%;
+ line-height   : 130% ;
+}
+dt+dt	{ border-top : none; }
+dd dl	{ margin     : 0.2em 0 ; }
+
+dl.inline_object	{
+ text-align  : center ;
+ border      : none ;
+ background  : transparent ;
+}
+dl.inline_object dt	{
+ display     : inline ;
+ margin      : 0 ;
+ border      : none ;
+ background  : transparent ;
+}
+dl.inline_object dd	{
+ text-align  : center ;
+}
+
+
+
+
+
+
+
+blockquote	{
+ margin        : 1.5em 0 1.5em 0% ;
+ background    : #efc ;
+ border        : solid 1px #393 ;
+}
+blockquote[title]:before	{
+ display       : block ;
+ content       : ""attr(title)"より引用" ;
+ color         : #393 ;
+ padding       : 0.3em 1% ;
+ background    : #cfb ;
+ border-bottom : solid 1px #393 ;
+ font-size     : 90% ;
+}
+blockquote[cite]:after	{
+ display       : block ;
+ content       : "《参照》"attr(cite)"" ;
+ color         : #393 ;
+ text-align    : right ;
+ padding       : 0.3em 1% ;
+ background    : #cfb ;
+ border-top    : solid 1px #393 ;
+ font-size     : 90% ;
+}
+blockquote p	{
+ margin        : 1em 2%;
+}
+
+
+q	{
+ quotes      : "「" "」" "『" "』" ;
+ color       : #393 ;
+}
+q:before	{
+ content     : open-quote ;
+}
+q:after		{
+ content     : close-quote ;
+}
+
+
+
+em	{
+ color         : #900 ;
+ font-weight   : bold ;
+}
+
+abbr	{
+ text-decoration : underline ;
+}
+span	{
+ text-decoration : underline ;
+}
+
+
+code	{
+ color         : #099 ;
+}
+
+sup,
+sub		{ 
+ font-size     : 75% ; }
+
+hr		{
+ padding       : 0em 0 1.5em 0 ;
+}
+hr:before	{
+ display       : block ;
+/* content       : "◆　　　　　　　◆　　　　　　　◆" ;*/
+ content       : "＊" ;
+ text-align    : center ;
+}
+
+pre		{
+ margin        : 1.5em 0 1.5em 0% ;
+ padding       : 1em 2% ;
+ border        : solid 1px #996 ;
+ font-size     : 90% ;
+ background      : #eec ;
+}
+
+
+
+
+
