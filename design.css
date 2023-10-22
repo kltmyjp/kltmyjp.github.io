@@ -226,6 +226,17 @@ span	{
 }
 
 
+del {
+ color:#999;
+ text-decoration:line-through;
+}
+
+ins {
+ border-bottom:solid 1px #f33;
+}
+
+
+
 code	{
  color         : #099 ;
 }
